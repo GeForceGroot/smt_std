@@ -1,0 +1,31 @@
+.container:hover {
+    border-radius: 5px;
+    display: flex;
+}
+
+.sub_but {
+    transition: box-shadow 0.3s ease;
+    /* Optional: adds a smooth transition effect */
+}
+
+.sub-dropdown:hover {
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    transform: scale3d(1.2);
+    background-color: #E4E4E1;
+    background-image: 'linear-gradient(to bottom right, #91defe, #99c0f9, #bdb6ec, #d7b3e3, #efb3d5,#f9bccc)'
+}
+
+.sub-dropdown {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /* Optional: adds a smooth transition effect */
+}
+
+.sub_but:hover .sub-dropdown {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
