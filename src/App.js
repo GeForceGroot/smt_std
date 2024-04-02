@@ -26,7 +26,7 @@ function App() {
             <Feedback />
             <AcademicImpact />
           </Route>
-          <Route path='/all-subject'>
+          <Route exact path='/all-subject'>
             <SubjectType />
           </Route>
         </Switch>

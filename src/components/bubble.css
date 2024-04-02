@@ -1,8 +1,8 @@
   
   .ball {
     animation: float 3.5s ease-in-out infinite;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
     border-radius: 50%;
     position: relative;
   
@@ -32,8 +32,8 @@
   
   .shadow {
     background: #b490b2;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 40px;
     top: 70%;
     animation: expand 4s infinite;
     position: absolute;
@@ -53,8 +53,8 @@
   @media only screen and (max-width: 500px) {
     .ball {
       animation: float 4.5s ease-in-out infinite;
-      height: 100px;
-      width: 100px;
+      height: 120px;
+      width: 200px;
   
       background: radial-gradient(
         circle at 65% 35%,
