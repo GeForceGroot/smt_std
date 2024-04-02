@@ -1,8 +1,8 @@
   
   .ball {
     animation: float 3.5s ease-in-out infinite;
-    height: 175px;
-    width: 1750px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     position: relative;
   
@@ -32,8 +32,8 @@
   
   .shadow {
     background: #b490b2;
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
     top: 70%;
     animation: expand 4s infinite;
     position: absolute;
