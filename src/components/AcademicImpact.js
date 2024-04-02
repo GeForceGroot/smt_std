@@ -10,18 +10,18 @@ const AcademicImpact = () => {
                 </div>
                 <div className='conatiner' style={{ display: 'flex', justifyContent: "center", marginTop: "125px" }}>
                     <div className="ball" style={{ marginLeft: '400px' }}>
-                        <p style={{ marginTop: '50px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>1571</p>
-                        <p style={{ marginBottom: '20px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Projects Completed</p>
+                        <p style={{ marginTop: '50px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>1571</p>
+                        <p style={{ marginBottom: '20px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Projects Completed</p>
                         <div className="shadow" style={{ marginTop: '50px', marginLeft: '25px' }}></div>
                     </div>
                     <div className="ball" style={{ marginLeft: '300px', marginRight: '300px' }}>
-                        <p style={{ marginTop: '50px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>1042</p>
-                        <p style={{ marginBottom: '20px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Happy Students</p>
+                        <p style={{ marginTop: '50px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>1042</p>
+                        <p style={{ marginBottom: '20px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Happy Students</p>
                         <div className="shadow" style={{ marginTop: '50px', marginLeft: '25px' }}></div>
                     </div>
                     <div className="ball" style={{ marginRight: '400px' }}>
-                        <p style={{ marginTop: '50px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>15</p>
-                        <p style={{ marginBottom: '20px', fontSize: "25px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Years Experience</p>
+                        <p style={{ marginTop: '50px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>15</p>
+                        <p style={{ marginBottom: '20px', fontSize: "15px", fontWeight: 'bold', color: "rgb(115 10 115 / 89%)" }}>Years Experience</p>
                         <div className="shadow" style={{ marginTop: '50px', marginLeft: '25px' }}></div>
                     </div>
                 </div>
